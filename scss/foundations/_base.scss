@@ -5,7 +5,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: #{$font-family-en}, #{$font-family-jp};
+    font-family: $font-family-base;
     font-size: rem(16);
     line-height: $line-height-base;
     color: $color-text-main;
