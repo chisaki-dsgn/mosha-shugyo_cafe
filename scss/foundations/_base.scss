@@ -1,0 +1,36 @@
+@use 'variables' as *;
+
+html{
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: #{$font-family-en}, #{$font-family-jp};
+    font-size: rem(16);
+    line-height: $line-height-base;
+    color: $color-text-main;
+    background-color: $color-bg-main;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.l-section{
+    padding-block: 64px;
+    @include mq{
+        padding-block: 80px;
+    }
+}
+.l-inner{
+    padding-inline: 5%;
+    max-width: 960px;
+    margin-inline: auto;
+}
+.l-inner-wide{
+    padding-inline: 5%;
+    max-width: 1080px;
+    margin-inline: auto;
+}
