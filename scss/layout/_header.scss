@@ -44,7 +44,7 @@
         font-size: rem(12);
         @include mq{
             justify-content: flex-end;
-            margin-right: rem(32);
+            padding-right: rem(32);
             font-size: rem(14);
         }
         li:not(:last-child){
@@ -52,6 +52,12 @@
             border-right: 1px solid ;
             @include mq{
                 border-right: none;
+            }
+        }
+        .pc-only{
+            display: none;
+            @include mq{
+                display: inline;
             }
         }
     }
