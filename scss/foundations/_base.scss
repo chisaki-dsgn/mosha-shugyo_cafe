@@ -6,10 +6,19 @@ html{
 }
 body{
     font-family: $font-family-base;
-    font-size: rem(16);
+    font-size: rem(14);
     line-height: $line-height-base;
     color: $color-text-main;
     background-color: $color-bg-main;
+    @include mq{
+        font-size: rem(16);
+    }
+}
+main{
+    padding-top: 70px;
+    @include mq{
+        padding-top: 80px;
+    }
 }
 img{
     display: block;
