@@ -1,0 +1,47 @@
+@use '../foundations/variables' as *;
+
+.p-top{
+    h2{
+        font-size: rem(24);
+        text-align: center;
+        margin-bottom: 40px;
+        @include mq{
+            font-size: rem(32);
+            margin-bottom: rem(48);
+        }
+    }
+    &-kv{
+        width: 100%;
+    }
+    &-concept{
+        text-align: center;
+        &__img{
+            width: 100%;
+            margin-bottom: 40px;
+            @include mq{
+                margin-bottom: 48px;
+            }
+        }
+        &__catch{
+            font-size: rem(16);
+            line-height: 1.75;
+            margin-bottom: rem(24);
+            @include mq{
+                margin-bottom: rem(32);
+                font-size: rem(20);
+            }
+        }
+        &__text{
+            margin-bottom: 40px;
+            @include mq{
+                margin-bottom: 48px;
+            }
+            .pc-only{
+                display: none;
+                @include mq{
+                    display: inline;
+                }
+            }
+        }
+    }
+}
