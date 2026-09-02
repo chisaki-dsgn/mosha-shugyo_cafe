@@ -1,0 +1,16 @@
+@use '../foundations/variables' as *;
+
+.c-btn{
+    display: block;
+    margin-inline: auto;
+    width: 220px;
+    height: 50px;
+    background-color: $color-bg-accent;
+    color: $color-text-inverse;
+    line-height: 50px;
+    @include mq{
+        width: 240px;
+        height: 60px;
+        line-height: 60px;
+    }
+}
