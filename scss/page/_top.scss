@@ -4,7 +4,7 @@
     h2{
         font-size: rem(24);
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: rem(40);
         @include mq{
             font-size: rem(32);
             margin-bottom: rem(48);
@@ -17,9 +17,9 @@
         text-align: center;
         &__img{
             width: 100%;
-            margin-bottom: 40px;
+            margin-bottom: rem(40);
             @include mq{
-                margin-bottom: 48px;
+                margin-bottom: rem(48);
             }
         }
         &__catch{
@@ -32,9 +32,9 @@
             }
         }
         &__text{
-            margin-bottom: 40px;
+            margin-bottom: rem(40);
             @include mq{
-                margin-bottom: 48px;
+                margin-bottom: rem(48);
             }
             .pc-only{
                 display: none;
@@ -43,5 +43,57 @@
                 }
             }
         }
+    }
+}
+
+// ==================================================
+// menu section
+// ==================================================
+.p-top-menu{
+    background: url('../../img/bg-top-menu.jpg') no-repeat center / cover;
+    color: $color-text-inverse;
+    &__flex{
+        @include mq{
+            display: flex;
+            gap: rem(62);
+        }
+    }
+    &__drip{
+        flex: 1;
+    }
+    &__espresso{
+        flex: 1;
+    }
+    &__list-title{
+        margin-bottom: rem(16);
+        font-size: rem(18);
+        @include mq{
+            font-size: rem(20);
+        }
+    }
+    &__list{
+        margin-bottom: rem(40);
+        @include mq{
+            margin-bottom: rem(48);
+        }
+    }
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        padding-block: rem(10);
+        border-bottom: 1px solid;
+        dt{
+            font-weight: 400;
+        }
+        dd{
+            font-family: $font-family-jp;
+        }
+        @include mq{
+            padding-block: rem(8);
+        }
+    }
+    &__btn{
+        background-color: #fff;
+        color: #000;
     }
 }
