@@ -161,6 +161,7 @@ img {
     width: 240px;
     height: 60px;
     line-height: 60px;
+    font-size: 1.125rem;
   }
 }
 
@@ -271,6 +272,47 @@ img {
 .p-top-menu__btn {
   background-color: #fff;
   color: #000;
+}
+
+.p-top-shoplist__text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+  .p-top-shoplist__text {
+    margin-bottom: 48px;
+  }
+}
+.p-top-shoplist__list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 230px));
+  gap: 1rem 0.875rem;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .p-top-shoplist__list {
+    grid-template-columns: repeat(3, minmax(0, 230px));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+}
+.p-top-shoplist__item {
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  background-color: #efede9;
+  border-radius: 100px;
+  max-width: 230px;
+}
+@media (min-width: 768px) {
+  .p-top-shoplist__item {
+    height: 55px;
+    line-height: 55px;
+  }
+}
+.p-top-shoplist__item a {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
