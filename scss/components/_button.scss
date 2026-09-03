@@ -1,6 +1,7 @@
 @use '../foundations/variables' as *;
 
 .c-btn{
+    position: relative;
     display: block;
     margin-inline: auto;
     text-align: center;
@@ -9,10 +10,30 @@
     background-color: $color-bg-accent;
     color: $color-text-inverse;
     line-height: 50px;
+    transition: scale .3s ease;
     @include mq{
         width: 240px;
         height: 60px;
         line-height: 60px;
         font-size: rem(18);
+    }
+    &::after{
+        position: absolute;
+        content: "";
+        width: 24px;
+        height: 1px;
+        background-color: currentColor;
+        top: 50%;
+        right: 0;
+        transition: translate .3s ease;
+        @include mq{
+            width: 28px;
+        }
+    }
+    &:hover{
+        scale: 1.05;
+        &::after{
+            translate: -10px 0;
+        }
     }
 }

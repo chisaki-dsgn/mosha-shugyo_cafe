@@ -54,6 +54,7 @@ img {
 
 .l-header {
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   width: 100%;
@@ -235,6 +236,7 @@ img {
 }
 
 .c-btn {
+  position: relative;
   display: block;
   margin-inline: auto;
   text-align: center;
@@ -243,6 +245,7 @@ img {
   background-color: #000;
   color: #fff;
   line-height: 50px;
+  transition: scale 0.3s ease;
 }
 @media (min-width: 768px) {
   .c-btn {
@@ -251,6 +254,27 @@ img {
     line-height: 60px;
     font-size: 1.125rem;
   }
+}
+.c-btn::after {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 1px;
+  background-color: currentColor;
+  top: 50%;
+  right: 0;
+  transition: translate 0.3s ease;
+}
+@media (min-width: 768px) {
+  .c-btn::after {
+    width: 28px;
+  }
+}
+.c-btn:hover {
+  scale: 1.05;
+}
+.c-btn:hover::after {
+  translate: -10px 0;
 }
 
 .p-top h2 {
