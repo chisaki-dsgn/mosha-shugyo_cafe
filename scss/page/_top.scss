@@ -147,6 +147,14 @@
     @include mq{
         height: 370px;
     }
+    picture{
+        display: block;
+        height: 100%;
+    }
+    img{
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 // ==================================================
