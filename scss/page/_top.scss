@@ -4,10 +4,10 @@
     h2{
         font-size: rem(24);
         text-align: center;
-        margin-bottom: rem(40);
+        margin-bottom: $spacing-block-sp;
         @include mq{
             font-size: rem(32);
-            margin-bottom: rem(48);
+            margin-bottom: $spacing-block-pc;
         }
     }
     &-kv{
@@ -17,9 +17,9 @@
         text-align: center;
         &__img{
             width: 100%;
-            margin-bottom: rem(40);
+            margin-bottom: $spacing-block-sp;
             @include mq{
-                margin-bottom: rem(48);
+                margin-bottom: $spacing-block-pc;
             }
         }
         &__catch{
@@ -32,9 +32,9 @@
             }
         }
         &__text{
-            margin-bottom: rem(40);
+            margin-bottom: $spacing-block-sp;
             @include mq{
-                margin-bottom: rem(48);
+                margin-bottom: $spacing-block-pc;
             }
             .pc-only{
                 display: none;
@@ -73,9 +73,9 @@
         }
     }
     &__list{
-        margin-bottom: rem(40);
+        margin-bottom: $spacing-block-sp;
         @include mq{
-            margin-bottom: rem(48);
+            margin-bottom: $spacing-block-pc;
         }
     }
     &__item{
@@ -106,21 +106,21 @@
 .p-top-shoplist{
     &__text{
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: $spacing-block-sp;
         @include mq{
-            margin-bottom: 48px;
+            margin-bottom: $spacing-block-pc;
         }
     }
     &__list{
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 230px));
         gap: rem(16) rem(14);
-        margin-bottom: rem(40);
+        margin-bottom: $spacing-block-sp;
         justify-content: center;
         @include mq{
             grid-template-columns: repeat(3, minmax(0,230px));
             gap: rem(24);
-            margin-bottom: rem(48);
+            margin-bottom: $spacing-block-pc;
         }
     }
     &__item{
@@ -147,6 +147,14 @@
     @include mq{
         height: 370px;
     }
+    picture{
+        display: block;
+        height: 100%;
+    }
+    img{
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 // ==================================================
@@ -158,11 +166,11 @@
         @include mq{
             display: flex;
             gap: 30px;
-            margin-bottom: rem(48);
+            margin-bottom: $spacing-block-pc;
         }
     }
     &__item{
-        margin-bottom: rem(40);
+        margin-bottom: $spacing-block-sp;
         @include mq{
             margin-bottom: 0;
         }
