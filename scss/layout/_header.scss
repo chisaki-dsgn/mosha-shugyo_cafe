@@ -27,7 +27,7 @@
         top: 100%;
         left: 0;
         width: 100%;
-        background-color: $color-bg-peimary;
+        background-color: $color-bg-primary;
         color: $color-text-inverse;
         @include mq{
             position: static;
@@ -63,7 +63,7 @@
     }
     &__btn{
         display: block;
-        background-color: $color-bg-peimary;
+        background-color: $color-bg-primary;
         color: $color-text-inverse;
         width: 140px;
         height: 40px;
