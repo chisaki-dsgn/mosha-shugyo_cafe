@@ -235,6 +235,7 @@ img {
 }
 
 .c-btn {
+  position: relative;
   display: block;
   margin-inline: auto;
   text-align: center;
@@ -250,6 +251,20 @@ img {
     height: 60px;
     line-height: 60px;
     font-size: 1.125rem;
+  }
+}
+.c-btn::after {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 1px;
+  background-color: currentColor;
+  top: 50%;
+  right: 0;
+}
+@media (min-width: 768px) {
+  .c-btn::after {
+    width: 28px;
   }
 }
 
