@@ -10,6 +10,7 @@
     background-color: $color-bg-accent;
     color: $color-text-inverse;
     line-height: 50px;
+    transition: scale .3s ease;
     @include mq{
         width: 240px;
         height: 60px;
@@ -24,8 +25,15 @@
         background-color: currentColor;
         top: 50%;
         right: 0;
+        transition: translate .3s ease;
         @include mq{
             width: 28px;
+        }
+    }
+    &:hover{
+        scale: 1.05;
+        &::after{
+            translate: -10px 0;
         }
     }
 }
