@@ -17,7 +17,7 @@ body {
 }
 
 main {
-  padding-top: 70px;
+  padding-top: 110px;
 }
 @media (min-width: 768px) {
   main {
@@ -41,14 +41,12 @@ img {
 }
 
 .l-inner {
-  padding-inline: 5%;
-  max-width: 960px;
+  width: min(90%, 960px);
   margin-inline: auto;
 }
 
 .l-inner-wide {
-  padding-inline: 5%;
-  max-width: 1080px;
+  width: min(90%, 1080px);
   margin-inline: auto;
 }
 
