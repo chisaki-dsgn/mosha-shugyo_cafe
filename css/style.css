@@ -732,4 +732,92 @@ img {
   }
 }
 
+.p-archive-blog__hero {
+  background: url("../../img/blog-kv-sp.jpg") no-repeat center/cover;
+}
+@media (min-width: 768px) {
+  .p-archive-blog__hero {
+    background-image: url("../../img/blog-kv-pc.jpg");
+  }
+}
+.p-archive-blog__list {
+  margin-bottom: 2.5rem;
+}
+@media (min-width: 768px) {
+  .p-archive-blog__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem 1.875rem;
+    margin-bottom: 3rem;
+  }
+}
+.p-archive-blog__list-item {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.p-archive-blog__list-item:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+@media (min-width: 768px) {
+  .p-archive-blog__list-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+.p-archive-blog__list-item:hover {
+  opacity: 0.7;
+}
+.p-archive-blog__list-img {
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .p-archive-blog__list-img {
+    margin-bottom: 1.25rem;
+  }
+}
+.p-archive-blog__list-date {
+  font-size: 0.75rem;
+  color: #524433;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+}
+@media (min-width: 768px) {
+  .p-archive-blog__list-date {
+    font-size: 0.875rem;
+  }
+}
+.p-archive-blog__list-title {
+  font-size: 1.125rem;
+  line-height: 1.55;
+}
+@media (min-width: 768px) {
+  .p-archive-blog__list-title {
+    font-size: 1.375rem;
+  }
+}
+.p-archive-blog__pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.p-archive-blog__pagination-btn {
+  display: block;
+  width: 32px;
+  aspect-ratio: 1/1;
+  border: solid 1px;
+  text-align: center;
+  line-height: 32px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .p-archive-blog__pagination-btn {
+    width: 40px;
+    line-height: 40px;
+  }
+}
+.p-archive-blog__pagination-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
