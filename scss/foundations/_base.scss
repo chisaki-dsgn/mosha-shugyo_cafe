@@ -15,7 +15,7 @@ body{
     }
 }
 main{
-    padding-top: 70px;
+    padding-top: 110px;
     @include mq{
         padding-top: 80px;
     }
@@ -33,12 +33,16 @@ img{
     }
 }
 .l-inner{
-    padding-inline: 5%;
-    max-width: 960px;
+    // padding-inline: 5%;
+    // max-width: 960px;
+    // margin-inline: auto;
+    width: min(90%, 960px);
     margin-inline: auto;
 }
 .l-inner-wide{
-    padding-inline: 5%;
-    max-width: 1080px;
+    // padding-inline: 5%;
+    // max-width: 1080px;
+    // margin-inline: auto;
+    width: min(90%, 1080px);
     margin-inline: auto;
 }
