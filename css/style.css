@@ -659,4 +659,79 @@ img {
   }
 }
 
+.p-shoplist__hero {
+  background: url("../../img/shoplist-kv-sp.jpg") no-repeat center/cover;
+}
+@media (min-width: 768px) {
+  .p-shoplist__hero {
+    background-image: url("../../img/shoplist-kv-pc.jpg");
+  }
+}
+.p-shoplist .l-inner-wide {
+  max-width: 1200px;
+}
+@media (min-width: 768px) {
+  .p-shoplist__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem 3%;
+  }
+}
+.p-shoplist__list-item:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+@media (min-width: 768px) {
+  .p-shoplist__list-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  .p-shoplist__list-item {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+}
+.p-shoplist__list-img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .p-shoplist__list-img {
+    width: 50%;
+    margin-bottom: 0;
+  }
+}
+.p-shoplist__list-body {
+  font-family: "Noto Sans JP", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1.55;
+}
+@media (min-width: 768px) {
+  .p-shoplist__list-body {
+    flex: 1;
+    font-size: 0.875rem;
+  }
+}
+.p-shoplist__list-title {
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  .p-shoplist__list-title {
+    font-size: 1.25rem;
+  }
+}
+.p-shoplist__list-tel {
+  font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+}
+@media (min-width: 768px) {
+  .p-shoplist__list-tel {
+    font-size: 1.375rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
