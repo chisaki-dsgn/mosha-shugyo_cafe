@@ -5,7 +5,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: $font-family-base;
+    font-family: $font-family-jp;
     font-size: rem(14);
     line-height: $line-height-base;
     color: $color-text-main;
@@ -33,16 +33,10 @@ img{
     }
 }
 .l-inner{
-    // padding-inline: 5%;
-    // max-width: 960px;
-    // margin-inline: auto;
     width: min(90%, 960px);
     margin-inline: auto;
 }
 .l-inner-wide{
-    // padding-inline: 5%;
-    // max-width: 1080px;
-    // margin-inline: auto;
     width: min(90%, 1080px);
     margin-inline: auto;
 }

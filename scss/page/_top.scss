@@ -2,6 +2,7 @@
 
 .p-top{
     h2{
+        font-family: $font-family-en;
         font-size: rem(24);
         text-align: center;
         margin-bottom: $spacing-block-sp;
@@ -13,34 +14,40 @@
     &-kv{
         width: 100%;
     }
-    &-concept{
-        text-align: center;
-        &__img{
-            width: 100%;
-            margin-bottom: $spacing-block-sp;
-            @include mq{
-                margin-bottom: $spacing-block-pc;
-            }
+    
+}
+
+// ==================================================
+// concept section
+// ==================================================
+
+.p-top-concept{
+    text-align: center;
+    &__img{
+        width: 100%;
+        margin-bottom: $spacing-block-sp;
+        @include mq{
+            margin-bottom: $spacing-block-pc;
         }
-        &__catch{
-            font-size: rem(16);
-            line-height: 1.75;
-            margin-bottom: rem(24);
-            @include mq{
-                margin-bottom: rem(32);
-                font-size: rem(20);
-            }
+    }
+    &__catch{
+        font-size: rem(16);
+        line-height: 1.75;
+        margin-bottom: rem(24);
+        @include mq{
+            margin-bottom: rem(32);
+            font-size: rem(20);
         }
-        &__text{
-            margin-bottom: $spacing-block-sp;
+    }
+    &__text{
+        margin-bottom: $spacing-block-sp;
+        @include mq{
+            margin-bottom: $spacing-block-pc;
+        }
+        .pc-only{
+            display: none;
             @include mq{
-                margin-bottom: $spacing-block-pc;
-            }
-            .pc-only{
-                display: none;
-                @include mq{
-                    display: inline;
-                }
+                display: inline;
             }
         }
     }
@@ -68,6 +75,7 @@
     &__list-title{
         margin-bottom: rem(16);
         font-size: rem(18);
+        font-family: $font-family-en;
         @include mq{
             font-size: rem(20);
         }
@@ -85,9 +93,6 @@
         border-bottom: 1px solid;
         dt{
             font-weight: 400;
-        }
-        dd{
-            font-family: $font-family-jp;
         }
         @include mq{
             padding-block: rem(8);
@@ -185,6 +190,7 @@
     }
     &__time{
         font-size: rem(12);
+        font-family: $font-family-en;
         color: $color-text-primary;
         margin-bottom: rem(8);
         line-height: $line-height-tight;
