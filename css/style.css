@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", "Noto Sans JP", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 0.875rem;
   line-height: 2;
   color: #000;
@@ -51,6 +51,7 @@ img {
 }
 
 .l-header {
+  font-family: "Montserrat", sans-serif;
   position: fixed;
   z-index: 100;
   top: 0;
@@ -161,6 +162,7 @@ img {
 }
 
 .l-footer-instagram {
+  font-family: "Montserrat", sans-serif;
   background-color: #efede9;
 }
 .l-footer-instagram__title {
@@ -241,7 +243,6 @@ img {
 }
 
 .l-footer__copy {
-  font-family: "Noto Sans JP", sans-serif;
   display: block;
   text-align: center;
   font-size: 0.75rem;
@@ -250,6 +251,7 @@ img {
 }
 
 .c-btn {
+  font-family: "Montserrat", sans-serif;
   position: relative;
   display: block;
   margin-inline: auto;
@@ -303,6 +305,7 @@ img {
 }
 
 .page-title {
+  font-family: "Montserrat", sans-serif;
   position: absolute;
   top: 50%;
   left: 1.125rem;
@@ -318,6 +321,7 @@ img {
 }
 
 .p-top h2 {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   text-align: center;
   margin-bottom: 2.5rem;
@@ -390,6 +394,7 @@ img {
 .p-top-menu__list-title {
   margin-bottom: 1rem;
   font-size: 1.125rem;
+  font-family: "Montserrat", sans-serif;
 }
 @media (min-width: 768px) {
   .p-top-menu__list-title {
@@ -412,9 +417,6 @@ img {
 }
 .p-top-menu__item dt {
   font-weight: 400;
-}
-.p-top-menu__item dd {
-  font-family: "Noto Sans JP", sans-serif;
 }
 @media (min-width: 768px) {
   .p-top-menu__item {
@@ -510,6 +512,7 @@ img {
 }
 .p-top-blog__time {
   font-size: 0.75rem;
+  font-family: "Montserrat", sans-serif;
   color: #524433;
   margin-bottom: 0.5rem;
   line-height: 1;
@@ -649,7 +652,6 @@ img {
 .p-menu__list-price {
   line-height: 1;
   margin-bottom: 0.75rem;
-  font-family: "Noto Sans JP", sans-serif;
 }
 @media (min-width: 768px) {
   .p-menu__list-price {
@@ -701,7 +703,6 @@ img {
   }
 }
 .p-shoplist__list-body {
-  font-family: "Noto Sans JP", sans-serif;
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
@@ -842,6 +843,7 @@ img {
   line-height: 1;
   color: #524433;
   margin-bottom: 0.25rem;
+  font-family: "Montserrat", sans-serif;
 }
 @media (min-width: 768px) {
   .p-single-blog__post-date {
@@ -867,6 +869,7 @@ img {
     margin-bottom: 2.5rem;
   }
 }
+
 .p-404__hero {
   background: url("../../img/page-kv.jpg") no-repeat center/cover;
 }

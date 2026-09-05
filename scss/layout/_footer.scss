@@ -1,6 +1,7 @@
 @use '../foundations/variables' as *;
 
 .l-footer-instagram{
+    font-family: $font-family-en;
     background-color: $color-bg-sub;
     &__title{
         font-size: rem(24);
@@ -72,7 +73,6 @@
     }
 }
 .l-footer__copy{
-    font-family: $font-family-jp;
     display: block;
     text-align: center;
     font-size: rem(12);

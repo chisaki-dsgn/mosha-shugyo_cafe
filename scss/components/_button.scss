@@ -1,6 +1,7 @@
 @use '../foundations/variables' as *;
 
 .c-btn{
+    font-family: $font-family-en;
     position: relative;
     display: block;
     margin-inline: auto;

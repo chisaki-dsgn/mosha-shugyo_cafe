@@ -19,6 +19,7 @@
         line-height: $line-height-tight;
         color: $color-text-primary;
         margin-bottom: rem(4);
+        font-family: $font-family-en;
         @include mq{
             font-size: rem(14);
         }

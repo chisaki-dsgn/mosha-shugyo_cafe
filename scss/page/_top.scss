@@ -2,6 +2,7 @@
 
 .p-top{
     h2{
+        font-family: $font-family-en;
         font-size: rem(24);
         text-align: center;
         margin-bottom: $spacing-block-sp;
@@ -68,6 +69,7 @@
     &__list-title{
         margin-bottom: rem(16);
         font-size: rem(18);
+        font-family: $font-family-en;
         @include mq{
             font-size: rem(20);
         }
@@ -85,9 +87,6 @@
         border-bottom: 1px solid;
         dt{
             font-weight: 400;
-        }
-        dd{
-            font-family: $font-family-jp;
         }
         @include mq{
             padding-block: rem(8);
@@ -185,6 +184,7 @@
     }
     &__time{
         font-size: rem(12);
+        font-family: $font-family-en;
         color: $color-text-primary;
         margin-bottom: rem(8);
         line-height: $line-height-tight;

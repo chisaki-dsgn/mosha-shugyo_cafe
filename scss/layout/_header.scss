@@ -1,6 +1,7 @@
 @use '../foundations/variables' as *;
 
 .l-header{
+    font-family: $font-family-en;
     position: fixed;
     z-index: 100;
     top: 0;
