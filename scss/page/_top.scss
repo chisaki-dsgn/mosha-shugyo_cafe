@@ -14,34 +14,40 @@
     &-kv{
         width: 100%;
     }
-    &-concept{
-        text-align: center;
-        &__img{
-            width: 100%;
-            margin-bottom: $spacing-block-sp;
-            @include mq{
-                margin-bottom: $spacing-block-pc;
-            }
+    
+}
+
+// ==================================================
+// concept section
+// ==================================================
+
+.p-top-concept{
+    text-align: center;
+    &__img{
+        width: 100%;
+        margin-bottom: $spacing-block-sp;
+        @include mq{
+            margin-bottom: $spacing-block-pc;
         }
-        &__catch{
-            font-size: rem(16);
-            line-height: 1.75;
-            margin-bottom: rem(24);
-            @include mq{
-                margin-bottom: rem(32);
-                font-size: rem(20);
-            }
+    }
+    &__catch{
+        font-size: rem(16);
+        line-height: 1.75;
+        margin-bottom: rem(24);
+        @include mq{
+            margin-bottom: rem(32);
+            font-size: rem(20);
         }
-        &__text{
-            margin-bottom: $spacing-block-sp;
+    }
+    &__text{
+        margin-bottom: $spacing-block-sp;
+        @include mq{
+            margin-bottom: $spacing-block-pc;
+        }
+        .pc-only{
+            display: none;
             @include mq{
-                margin-bottom: $spacing-block-pc;
-            }
-            .pc-only{
-                display: none;
-                @include mq{
-                    display: inline;
-                }
+                display: inline;
             }
         }
     }
