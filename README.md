@@ -8,6 +8,19 @@
 ## 公開URL
 **サイトURL**：[https://chisaki-dsgn.github.io/mosya-shugyo_cafe/](https://chisaki-dsgn.github.io/mosya-shugyo_cafe/)
 
+## デザインカンプ
+
+[Figma:全ページのカンプはこちら▶](https://www.figma.com/design/aALdRyZ5ZJmlJreyrITg4N/mosha?node-id=0-1&t=OebZtCWrXRV9lkFy-1)
+
+デザインカンプ出典：『模写修行』（[https://moshashugyo.com/](https://moshashugyo.com/)）
+
+**デザインカンプ**（トップページ）
+
+| PC | スマホ |
+| --- | --- |
+|![PC](./img/design_top_pc-readme.png)|![SP](./img/design_top_sp-readme.png)|
+
+
 ## 制作期間・担当範囲
 - **制作期間**：2026年8月31日～9月5日（約20時間）
 - **担当範囲**：デザインカンプからのコーディング、JSを使った動きの実装、デプロイ
