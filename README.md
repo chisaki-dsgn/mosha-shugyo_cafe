@@ -3,10 +3,10 @@
 
 ## 概要
 - **制作内容**：提供されたデザインカンプを元にしたWebサイトのコーディング・実装（静的サイト）
-- **デザインカンプ出典**：『模写修行』（[https://moshashugyo.com/](https://moshashugyo.com/)）
+- **デザインカンプ引用元**：『模写修行』（[https://moshashugyo.com/](https://moshashugyo.com/)）
 
 ## 公開URL
-**サイトURL**：[https://chisaki-dsgn.github.io/mosya-shugyo_cafe/](https://chisaki-dsgn.github.io/mosya-shugyo_cafe/)
+**サイトURL**：[https://chisaki-dsgn.github.io/mosha-shugyo_cafe/](https://chisaki-dsgn.github.io/mosha-shugyo_cafe/)
 
 ## デザインカンプ
 
@@ -24,7 +24,7 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| **制作期間** | 2026年8月31日～9月5日（約20時間） |
+| **制作時間** | 約20時間 |
 | **担当範囲** |デザインカンプからのコーディング、JSを使った動きの実装 |
 
 ## ページ構成・実装セクション
